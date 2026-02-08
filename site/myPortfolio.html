@@ -1,27 +1,78 @@
-<!doctype html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>My Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Maisam Ali</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<h1>Maisam Ali</h1>
-<img src="maisam.jpg" alt="Maisam's picture" height="280" width="190">
-<ol>
-<li style="list-style: square;"><h2>Education</h2>
-	
-<ol>
-	<li><h3><b>Matriculation:</b></h3>
-	<ul>
-	<li style="list-style: circle;"><b>marks obtained:</b> 1014 </li>
-	<li style="list-style: circle;"><b>Total marks:</b>1100</li>
-	<li style="list-style: circle;"><b>Institute: </b>Kohsar Public School Parachinar Kurram</li>
-	</ul>
-</li>
-</ol>
-</li>
-</ol>
+  <!-- Header Section -->
+  <header class="Maisam">
+    <div class="profile-pic">
+      <img src="assets/msm.jpeg" alt="Profile Picture" />
+    </div>
+    <h1>Hi, I am Maisam Ali</h1>
+    <p>Web Developer | Frontend Enthusiast | UI Designer</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate web developer who builds responsive, user-friendly websites.
+      I specialize in HTML, CSS, and JavaScript, and I love turning designs into real, functional code.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <img src="assets/hotel.jpg" alt="Hotel Management System" />
+        <h3>Hotel Management System App</h3>
+        <p>A real-time Hotel Management System desktop app built in Java that handles and automates different Hotel Management Activities.</p>
+        <br>
+        <a href="https://github.com/maisamali051/Coursera-Test" class="btn" target="_blank">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <img src="assets/Portfolio.png" alt="Portfolio Website" />
+        <h3>Portfolio Website</h3>
+        <p>This a demo portfolio! Built with HTML & CSS.</p>
+        <br>
+        <a href="https://github.com/maisamali051/Coursera-Work/blob/main/site/myPortfolio.html" target="_blank" class="btn">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Maisam Ali. All rights reserved.</p>
+  </footer>
+
+  <div class="goodluck">✬✬✬ Good Luck ✬✬✬</div>
 </body>
 </html>
